@@ -1,0 +1,25 @@
+{
+  "name": "serri/excel-crafter",
+  "description": "A great Laravel Excel crafter tool that exports any JSON data or query-based data to excel dynamicly.",
+  "type": "composer-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Serri\\ExcelCrafter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Serri\\ExcelCrafter\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "AdnanSerri",
+      "email": "serri.adnan.47@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "orchestra/testbench": "^8.21"
+  }
+}
